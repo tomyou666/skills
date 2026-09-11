@@ -1,0 +1,7 @@
+# pnpm Runtime Conventions
+
+- 依存関係の操作は `pnpm install` を優先し、`npm install` / `npm ci` / `npm uninstall` は使わない。
+- スクリプト実行は `pnpm` を使用し、`npm` を使わない。
+- ロックファイルは pnpmのロックファイル を正とする。
+- CI やドキュメント内の実行例・手順も `pnpm` に統一する。
+- もし手元の手順が `npm` 前提なら、その変更提案を先に行って `pnpm` 相当へ置き換える。
