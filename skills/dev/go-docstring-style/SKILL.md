@@ -1,6 +1,7 @@
 ---
 name: go-docstring-style
-description: Enforces docstring writing in this Go project for functions, methods, and struct fields, with approved exceptions and multiline parameter supplements. Use when editing Go code, adding APIs, or refactoring functions, methods, and structs.
+description: Enforces docstring writing in this Go project for functions, methods, and struct fields, with approved exceptions and multiline parameter supplements. Use only when the user explicitly invokes this skill (e.g. /go-docstring-style).
+disable-model-invocation: true
 ---
 
 # Go Docstring Style

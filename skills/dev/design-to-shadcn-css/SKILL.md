@@ -1,6 +1,7 @@
 ---
 name: design-to-shadcn-css
-description: Reads a specified DESIGN.md and syncs its color tokens into shadcn/ui CSS variables (:root and .dark) in globals.css or index.css, including semantic extensions success, warning, and info. Use when applying DESIGN.md to shadcn theme variables, syncing design tokens to CSS, or mapping semantic colors (background, foreground, primary, destructive, border, input, success, warning, info).
+description: Reads a specified DESIGN.md and syncs its color tokens into shadcn/ui CSS variables (:root and .dark) in globals.css or index.css, including semantic extensions success, warning, and info. Use only when the user explicitly invokes this skill (e.g. /design-to-shadcn-css).
+disable-model-invocation: true
 ---
 
 # DESIGN.md → shadcn/ui CSS 変数

@@ -1,5 +1,5 @@
 ---
-name: obsidian-finance-theory-collection
+name: finance-theory-collection
 description: Obsidianの金融理論集ノートを、複数理論を1ノートに蓄積できる共通形式で作成・追記する。理論ごとに「ひとことで」「直感」「基本の数式」「計算ステップの要点」「使いどころと注意点」を統一して記述する必要があるときに使う。
 disable-model-invocation: true
 ---

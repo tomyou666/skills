@@ -1,6 +1,7 @@
 ---
 name: go-wire
-description: Guides Google Wire dependency injection — composition root layout, Provide* providers, wireinject files, wire_gen workflow, and cleanup patterns. Use when editing Wire, adding dependencies, regenerating wire_gen, or working in the project's composition root package.
+description: Guides Google Wire dependency injection — composition root layout, Provide* providers, wireinject files, wire_gen workflow, and cleanup patterns. Use only when the user explicitly invokes this skill (e.g. /go-wire).
+disable-model-invocation: true
 ---
 
 # Go Wire

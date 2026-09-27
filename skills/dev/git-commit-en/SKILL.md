@@ -1,6 +1,7 @@
 ---
 name: git-commit-en
-description: Generates Conventional Commits messages in English from session context and staged git diff. Use when writing commit messages, especially when the user asks to summarize staged changes with commit style rules.
+description: Generates Conventional Commits messages in English from session context and staged git diff. Use only when the user explicitly invokes this skill (e.g. /git-commit-en).
+disable-model-invocation: true
 ---
 
 # Git Commit EN

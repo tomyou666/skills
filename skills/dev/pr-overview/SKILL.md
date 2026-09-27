@@ -1,6 +1,7 @@
 ---
 name: pr-overview
 description: Draft a Japanese pull/merge request title and body as a non-technical overview. Use only when the user explicitly invokes this skill (e.g. /pr-overview).
+disable-model-invocation: true
 ---
 
 # PR Overview

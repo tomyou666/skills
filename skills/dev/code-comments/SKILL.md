@@ -1,6 +1,7 @@
 ---
 name: code-comments
-description: Add Japanese comments to implementations and Japanese summaries to tests. Use when writing, editing, or reviewing code or tests in any language (Java, TypeScript, and others).
+description: Add Japanese comments to implementations and Japanese summaries to tests. Use only when the user explicitly invokes this skill (e.g. /code-comments).
+disable-model-invocation: true
 ---
 
 # Code Comments

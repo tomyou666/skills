@@ -5,6 +5,7 @@ description: >-
   "Use the `skill-name` skill" notes on matching steps. Use only when explicitly
   invoked with a Cursor plan MD (e.g. .cursor/plans/*.plan.md).
 compatibility: Requires Cursor plan-mode markdown
+disable-model-invocation: true
 ---
 
 # Plan Skill Annotate

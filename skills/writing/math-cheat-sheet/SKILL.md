@@ -1,5 +1,5 @@
 ---
-name: obsidian-math-cheat-sheet
+name: math-cheat-sheet
 description: Obsidian Vaultで数学チートシート形式のノートを作成・更新する。公式表と証明メモを分離し、線形代数・解析・統計などの数式ノートを追加・整理するときに使う。
 disable-model-invocation: true
 ---

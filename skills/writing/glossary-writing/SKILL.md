@@ -1,5 +1,5 @@
 ---
-name: obsidian-glossary-writing
+name: glossary-writing
 description: Obsidianの用語集エントリーをシンプル版と詳細版で作成・リファクタリングする。一般向けの平易な説明を先に置き、必要最小限の理論と数式を加える形式で、用語定義の追加や説明文の書き直し時に使う。
 disable-model-invocation: true
 ---

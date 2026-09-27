@@ -1,6 +1,7 @@
 ---
 name: impl-code-check
 description: Review recent implementation for bug risk, dead code, missing tests, and error-handling gaps. Use only when the user explicitly invokes this skill (e.g. /impl-code-check).
+disable-model-invocation: true
 ---
 
 # Impl Code Check

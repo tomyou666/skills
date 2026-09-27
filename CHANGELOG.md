@@ -2,6 +2,22 @@
 
 ## [Unreleased]
 
+## [1.3.0]
+
+### 追加
+
+- わかりやすい解説を書く `explanation-writing` を追加
+- 設計の質問を AskQuestion にまとめる `grilling4cursor` を追加
+- 一回で通じる文を書く `say-once` を追加
+
+### 修正
+
+- `say-once` を `session` へ移した
+- `update-changelog` 以外の dev スキルを、明示したときだけ動くように変更
+- 用語集、金融理論集、数学チートシート、設計書のスキルを `writing` へ移し、`obsidian-` を外した
+- 設計書スキルから Vault の保存先と書式を外し、保存先の指定が無いときはファイルを作らないようにした
+- `obsidian-vault` から数学ノートの章立てを削除
+
 ## [1.2.0]
 
 ### 追加

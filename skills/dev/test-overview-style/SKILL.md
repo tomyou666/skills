@@ -1,6 +1,7 @@
 ---
 name: test-overview-style
-description: Write brief test overviews when adding or editing tests. Use when working on test files.
+description: Write brief test overviews when adding or editing tests. Use only when the user explicitly invokes this skill (e.g. /test-overview-style).
+disable-model-invocation: true
 ---
 
 # Test Overview Style

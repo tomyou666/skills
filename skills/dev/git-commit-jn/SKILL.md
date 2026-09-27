@@ -1,6 +1,7 @@
 ---
 name: git-commit-jn
-description: セッション内の議論内容とステージ済み差分からConventional Commits形式の日本語コミットメッセージを作成する。コミット文面作成やステージ差分要約を求められたときに使う。
+description: セッション内の議論内容とステージ済み差分からConventional Commits形式の日本語コミットメッセージを作成する。明示したときだけ使う（例: /git-commit-jn）。
+disable-model-invocation: true
 ---
 
 # Git Commit JN
