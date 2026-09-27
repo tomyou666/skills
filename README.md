@@ -1,5 +1,7 @@
 # skills
 
+[English](./docs/README.md)
+
 [![skills.sh](https://skills.sh/b/tomyou666/skills)](https://skills.sh/tomyou666/skills)
 
 コミット、レビュー、文書、Obsidian、Qiita の作業を、Agent Skills として揃える。
