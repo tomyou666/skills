@@ -7,3 +7,5 @@ compatibility: Requires Cursor AskQuestion tool
 # AskQuestion Tool
 
 If you have any questions, please use the AskQuestion tool.
+
+If the AskQuestion tool is not available, ask these questions conversationally.
