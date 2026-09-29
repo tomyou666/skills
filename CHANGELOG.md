@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 修正
+
+- `ask-question-tool` に、AskQuestion が使えないときは会話形式で質問する指示を追加
+- `no-local` で Write を許可した
+
 ## [1.4.0]
 
 ### その他
