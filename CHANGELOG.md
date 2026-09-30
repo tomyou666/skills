@@ -2,10 +2,13 @@
 
 ## [Unreleased]
 
+## [1.5.0]
+
 ### 修正
 
 - `ask-question-tool` に、AskQuestion が使えないときは会話形式で質問する指示を追加
 - `no-local` で Write を許可した
+- `pr-overview` の概要セクションを箇条書き形式で出力するよう修正
 
 ## [1.4.0]
 
