@@ -33,7 +33,7 @@ npx skills@latest add tomyou666/skills/skills/session
 # 実装、Git、レビュー 
 npx skills@latest add tomyou666/skills/skills/dev
 
-# 手順書、提案見積、解説、用語集、理論集、数式ノート、設計書
+# 手順書、提案見積、締結見積・請書、解説、用語集、理論集、数式ノート、設計書
 npx skills@latest add tomyou666/skills/skills/writing
 
 # Vault のフォルダ・命名・書式
@@ -87,12 +87,13 @@ npx skills list
 
 ### writing
 
-手順書、提案見積、解説、用語集、理論集、数式ノート、設計書。
+手順書、提案見積、締結見積・請書、解説、用語集、理論集、数式ノート、設計書。
 
 - **[design-doc-builder](./skills/writing/design-doc-builder/SKILL.md)**（User-invoked）: 要求から設計書を章ごとに分ける。保存先の指定が無いときはファイルを作らない
 - **[explanation-writing](./skills/writing/explanation-writing/SKILL.md)**（User-invoked）: 全体像から入るわかりやすい解説を書く・書き直す
 - **[finance-theory-collection](./skills/writing/finance-theory-collection/SKILL.md)**（User-invoked）: 金融理論集を共通形式で作る・追記する（Obsidian ノートの書式）
 - **[glossary-writing](./skills/writing/glossary-writing/SKILL.md)**（User-invoked）: 用語集を平易な説明と最小限の理論で書く（Obsidian ノートの書式）
+- **[it-solo-contract-drafts](./skills/writing/it-solo-contract-drafts/SKILL.md)**（User-invoked）: IT自営業の準委任・請負の締結TODOと、見積書・注文請書のドラフトを作る
 - **[math-cheat-sheet](./skills/writing/math-cheat-sheet/SKILL.md)**（User-invoked）: 数学チートシート形式のノートを作る・更新する（Obsidian ノートの書式）
 - **[procedure-writing](./skills/writing/procedure-writing/SKILL.md)**（User-invoked）: 上から実行できる手順書を書く
 - **[proposal-estimate-draft](./skills/writing/proposal-estimate-draft/SKILL.md)**（User-invoked）: 顧客向けの提案書と概算見積明細を Markdown で作る・改訂する

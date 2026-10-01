@@ -33,7 +33,7 @@ npx skills@latest add tomyou666/skills/skills/session
 # Implementation, Git, review
 npx skills@latest add tomyou666/skills/skills/dev
 
-# Procedures, proposals/estimates, explanations, glossaries, theory notes, math sheets, design docs
+# Procedures, proposals/estimates, contract estimates/acks, explanations, glossaries, theory notes, math sheets, design docs
 npx skills@latest add tomyou666/skills/skills/writing
 
 # Vault folders, naming, and formatting
@@ -87,12 +87,13 @@ Implementation, Git, review.
 
 ### writing
 
-Procedures, proposals/estimates, explanations, glossaries, theory notes, math sheets, design docs.
+Procedures, proposals/estimates, contract estimates/acks, explanations, glossaries, theory notes, math sheets, design docs.
 
 - **[design-doc-builder](../skills/writing/design-doc-builder/SKILL.md)** (User-invoked): Split requirements into a design doc by chapter. Do not create a file unless a save path is given
 - **[explanation-writing](../skills/writing/explanation-writing/SKILL.md)** (User-invoked): Write or rewrite clear explanations that start from the big picture
 - **[finance-theory-collection](../skills/writing/finance-theory-collection/SKILL.md)** (User-invoked): Create or append a finance theory collection in a shared format (Obsidian note format)
 - **[glossary-writing](../skills/writing/glossary-writing/SKILL.md)** (User-invoked): Write glossaries with plain explanations and minimal theory (Obsidian note format)
+- **[it-solo-contract-drafts](../skills/writing/it-solo-contract-drafts/SKILL.md)** (User-invoked): Draft IT solo contractor quasi-mandate/contract TODOs, estimates, and order acknowledgments
 - **[math-cheat-sheet](../skills/writing/math-cheat-sheet/SKILL.md)** (User-invoked): Create or update math cheat-sheet notes (Obsidian note format)
 - **[procedure-writing](../skills/writing/procedure-writing/SKILL.md)** (User-invoked): Write procedures that can be followed from top to bottom
 - **[proposal-estimate-draft](../skills/writing/proposal-estimate-draft/SKILL.md)** (User-invoked): Create or revise customer proposals and high-level estimate line items in Markdown
