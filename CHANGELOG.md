@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+## [1.7.0]
+
+### 修正
+
+- `ask-question-tool` で、AskQuestion の文字列は改行なしの1行にするよう指示した
+- `grilling4cursor` の AskQuestion プロンプトも改行なしの1行にした
+
 ## [1.6.0]
 
 ### 追加

@@ -36,8 +36,9 @@ One AskQuestion call per round:
 
 - `title`: the round label (for example `Round 2`)
 - One entry per frontier decision
-- `prompt`: number, title, body, and the reason for the recommendation. The body may be several paragraphs and may name the choices
+- `prompt`: number, title, body, and the reason for the recommendation, in that order, on one physical line. Join sentences with spaces. The body may name the choices
 - `options`: at least two. Put the recommended option first. End its label with ` (Recommended)`
+- Every string (`title`, `id`, `prompt`, `label`) is one physical line. A raw newline inside a JSON string invalidates the call, and the question is not shown
 - `allow_multiple`: only when the decision is multi-select
 - Free text stays on the tool's Other input. Do not add an Other option yourself
 
