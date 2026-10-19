@@ -4,7 +4,7 @@
 
 [![skills.sh](https://skills.sh/b/tomyou666/skills)](https://skills.sh/tomyou666/skills)
 
-Agent Skills for commits, reviews, writing, Obsidian, and Qiita.
+Agent Skills for commits, reviews, writing, Obsidian, Qiita, and OpenCode.
 
 ## Install
 
@@ -41,6 +41,9 @@ npx skills@latest add tomyou666/skills/skills/obsidian
 
 # Qiita articles
 npx skills@latest add tomyou666/skills/skills/qiita
+
+# OpenCode (oh-my-opencode-slim / open-codebase-index)
+npx skills@latest add tomyou666/skills/skills/opencode
 ```
 
 Verify what you installed:
@@ -111,6 +114,12 @@ Qiita articles.
 - **[qiita-article-planner](../skills/qiita/qiita-article-planner/SKILL.md)** (User-invoked): Ask for theme and persona, then build a heading outline
 - **[qiita-sample-pattern-extractor](../skills/qiita/qiita-sample-pattern-extractor/SKILL.md)** (User-invoked): Extract like-attracting patterns from sample articles
 - **[qiita-writing-principles](../skills/qiita/qiita-writing-principles/SKILL.md)** (User-invoked): Check article structure and reader design for like-attracting posts
+
+### opencode
+
+OpenCode (oh-my-opencode-slim / open-codebase-index).
+
+- **[codebase-explore](../skills/opencode/codebase-explore/SKILL.md)** (Model-invoked): Prefer `codebase_context` / `codebase_peek` when exploring; use `lsp_*` or `implementation_lookup` / `call_graph` for symbol investigation
 
 ## Develop in this repository
 
