@@ -4,7 +4,7 @@
 
 [![skills.sh](https://skills.sh/b/tomyou666/skills)](https://skills.sh/tomyou666/skills)
 
-コミット、レビュー、文書、Obsidian、Qiita の作業を、Agent Skills として揃える。
+コミット、レビュー、文書、Obsidian、Qiita、OpenCode の作業を、Agent Skills として揃える。
 
 ## インストール
 
@@ -41,6 +41,9 @@ npx skills@latest add tomyou666/skills/skills/obsidian
 
 # Qiita 記事
 npx skills@latest add tomyou666/skills/skills/qiita
+
+# OpenCode（oh-my-opencode-slim / open-codebase-index）
+npx skills@latest add tomyou666/skills/skills/opencode
 ```
 
 入れたか確認する:
@@ -111,6 +114,12 @@ Qiita 記事。
 - **[qiita-article-planner](./skills/qiita/qiita-article-planner/SKILL.md)**（User-invoked）: テーマとペルソナを聞いて見出し構成を作る
 - **[qiita-sample-pattern-extractor](./skills/qiita/qiita-sample-pattern-extractor/SKILL.md)**（User-invoked）: サンプル記事からいいねが付きやすい型を抽出する
 - **[qiita-writing-principles](./skills/qiita/qiita-writing-principles/SKILL.md)**（User-invoked）: いいねが付きやすい記事の構成と読者設計をチェックする
+
+### opencode
+
+OpenCode（oh-my-opencode-slim / open-codebase-index）。
+
+- **[codebase-explore](./skills/opencode/codebase-explore/SKILL.md)**（User-invoked）: 探索では `codebase_context` / `codebase_peek` を優先し、シンボル調査には `lsp_*` または `implementation_lookup` / `call_graph` を使う
 
 ## このリポジトリで開発する
 

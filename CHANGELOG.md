@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+## [1.8.0]
+
+### 追加
+
+- OpenCode 向け `codebase-explore` を `opencode` グループに追加
+
+
 ## [1.7.0]
 
 ### 修正
