@@ -4,7 +4,7 @@
 
 [![skills.sh](https://skills.sh/b/tomyou666/skills)](https://skills.sh/tomyou666/skills)
 
-Agent Skills for commits, reviews, writing, Obsidian, Qiita, and OpenCode.
+Agent Skills for commits, reviews, writing, Obsidian, Qiita, OpenCode, and Vikunja.
 
 ## Install
 
@@ -30,7 +30,7 @@ Install only the groups you need.
 # Conversation behavior
 npx skills@latest add tomyou666/skills/skills/session
 
-# Implementation, Git, review
+# Implementation, Git, review, plan tickets
 npx skills@latest add tomyou666/skills/skills/dev
 
 # Procedures, proposals/estimates, contract estimates/acks, explanations, glossaries, theory notes, math sheets, design docs
@@ -44,6 +44,9 @@ npx skills@latest add tomyou666/skills/skills/qiita
 
 # OpenCode (oh-my-opencode-slim / open-codebase-index)
 npx skills@latest add tomyou666/skills/skills/opencode
+
+# Vikunja (user-vikunja MCP)
+npx skills@latest add tomyou666/skills/skills/vikunja
 ```
 
 Verify what you installed:
@@ -73,7 +76,7 @@ Conversation behavior.
 
 ### dev
 
-Implementation, Git, review.
+Implementation, Git, review, plan tickets.
 
 - **[git-commit-en](../skills/dev/git-commit-en/SKILL.md)** (User-invoked): Write English Conventional Commits from the staged diff
 - **[git-commit-jn](../skills/dev/git-commit-jn/SKILL.md)** (User-invoked): Write Japanese Conventional Commits from the staged diff
@@ -87,6 +90,7 @@ Implementation, Git, review.
 - **[impl-code-check](../skills/dev/impl-code-check/SKILL.md)** (User-invoked): Report bug risk, dead code, missing tests, and error handling in the recent diff (do not fix)
 - **[plan-skill-annotate](../skills/dev/plan-skill-annotate/SKILL.md)** (User-invoked): Annotate each step in a plan markdown with the skills to use
 - **[pr-overview](../skills/dev/pr-overview/SKILL.md)** (User-invoked): Produce a non-technical Japanese PR/MR title and body
+- **[plan-ticket](../skills/dev/plan-ticket/SKILL.md)** (User-invoked): Write one kanban ticket in Cursor Plan style (outcome, decisions, work, verification, checklist)
 
 ### writing
 
@@ -120,6 +124,12 @@ Qiita articles.
 OpenCode (oh-my-opencode-slim / open-codebase-index).
 
 - **[codebase-explore](../skills/opencode/codebase-explore/SKILL.md)** (User-invoked): Prefer `codebase_context` / `codebase_peek` when exploring; use `lsp_*` or `implementation_lookup` / `call_graph` for symbol investigation
+
+### vikunja
+
+Vikunja (user-vikunja MCP).
+
+- **[vikunja](../skills/vikunja/vikunja/SKILL.md)** (User-invoked): Operate Vikunja with numeric task ids, Markdown, category labels, triage buckets, and a Done bucket
 
 ## Develop in this repository
 

@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### 追加
+
+- カンバンチケット用 `plan-ticket` を `dev` グループに追加
+- Vikunja 操作用 `vikunja` を `vikunja` グループに追加
+
 ## [1.8.0]
 
 ### 追加

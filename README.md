@@ -4,7 +4,7 @@
 
 [![skills.sh](https://skills.sh/b/tomyou666/skills)](https://skills.sh/tomyou666/skills)
 
-コミット、レビュー、文書、Obsidian、Qiita、OpenCode の作業を、Agent Skills として揃える。
+コミット、レビュー、文書、Obsidian、Qiita、OpenCode、Vikunja の作業を、Agent Skills として揃える。
 
 ## インストール
 
@@ -30,7 +30,7 @@ npx skills@latest add tomyou666/skills --skill <SKILL>
 # 会話の振る舞い
 npx skills@latest add tomyou666/skills/skills/session
 
-# 実装、Git、レビュー 
+# 実装、Git、レビュー、計画チケット 
 npx skills@latest add tomyou666/skills/skills/dev
 
 # 手順書、提案見積、締結見積・請書、解説、用語集、理論集、数式ノート、設計書
@@ -44,6 +44,9 @@ npx skills@latest add tomyou666/skills/skills/qiita
 
 # OpenCode（oh-my-opencode-slim / open-codebase-index）
 npx skills@latest add tomyou666/skills/skills/opencode
+
+# Vikunja（user-vikunja MCP）
+npx skills@latest add tomyou666/skills/skills/vikunja
 ```
 
 入れたか確認する:
@@ -73,7 +76,7 @@ npx skills list
 
 ### dev
 
-実装、Git、レビュー。
+実装、Git、レビュー、計画チケット。
 
 - **[git-commit-en](./skills/dev/git-commit-en/SKILL.md)**（User-invoked）: ステージ済み差分から英語の Conventional Commits を作る
 - **[git-commit-jn](./skills/dev/git-commit-jn/SKILL.md)**（User-invoked）: ステージ済み差分から日本語の Conventional Commits を作る
@@ -87,6 +90,7 @@ npx skills list
 - **[impl-code-check](./skills/dev/impl-code-check/SKILL.md)**（User-invoked）: 直近差分のバグリスク・死にコード・テスト欠落・エラー処理を報告する（直さない）
 - **[plan-skill-annotate](./skills/dev/plan-skill-annotate/SKILL.md)**（User-invoked）: 計画 markdown の各ステップに使うスキルを注記する
 - **[pr-overview](./skills/dev/pr-overview/SKILL.md)**（User-invoked）: 非技術向けの日本語 PR/MR タイトルと本文を出す
+- **[plan-ticket](./skills/dev/plan-ticket/SKILL.md)**（User-invoked）: カンバンチケットを Cursor Plan 形式（結果、決定、作業、確認、チェックリスト）で1枚書く
 
 ### writing
 
@@ -120,6 +124,12 @@ Qiita 記事。
 OpenCode（oh-my-opencode-slim / open-codebase-index）。
 
 - **[codebase-explore](./skills/opencode/codebase-explore/SKILL.md)**（User-invoked）: 探索では `codebase_context` / `codebase_peek` を優先し、シンボル調査には `lsp_*` または `implementation_lookup` / `call_graph` を使う
+
+### vikunja
+
+Vikunja（user-vikunja MCP）。
+
+- **[vikunja](./skills/vikunja/vikunja/SKILL.md)**（User-invoked）: 数値タスク ID、Markdown、種別ラベル、トリアージ用バケットと Done で Vikunja を操作する
 
 ## このリポジトリで開発する
 
