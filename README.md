@@ -110,6 +110,7 @@ npx skills list
 Vault のフォルダ・命名・書式。
 
 - **[obsidian-vault](./skills/obsidian/obsidian-vault/SKILL.md)**（Model-invoked）: Vault のフォルダ構成、命名、作成フロー、Markdown と数式の書式に従う
+- **[obsidian-markdown](./skills/obsidian/obsidian-markdown/SKILL.md)**（User-invoked）: フォルダ構成を除いた Markdown・数式・リンク・タグ・フロントマターの書式に従う
 
 ### qiita
 

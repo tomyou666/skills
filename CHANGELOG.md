@@ -2,6 +2,16 @@
 
 ## [Unreleased]
 
+## [1.10.0]
+
+### 追加
+
+- フォルダ構成を除いた Markdown 書式用の `obsidian-markdown` を追加
+
+### その他
+
+- `README.md` と `docs/README.md` に `obsidian-markdown` を追記
+
 ## [1.9.0]
 
 ### 追加
@@ -34,9 +44,17 @@
 - IT自営業の準委任・請負締結ドラフト用 `it-solo-contract-drafts` を追加
 
 ## [1.5.0]
+### 追加
+
+- フォルダ構成を除いた Markdown 書式用の `obsidian-markdown` を追加
+
+### その他
+
+- `README.md` と `docs/README.md` に `obsidian-markdown` を追記
 
 ### 修正
 
+- `obsidian-vault` と `obsidian-markdown` の内部リンクを `[ノート名](ノート名)` に変更
 - `ask-question-tool` に、AskQuestion が使えないときは会話形式で質問する指示を追加
 - `no-local` で Write を許可した
 - `pr-overview` の概要セクションを箇条書き形式で出力するよう修正

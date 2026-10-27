@@ -110,6 +110,7 @@ Procedures, proposals/estimates, contract estimates/acks, explanations, glossari
 Vault folders, naming, and formatting.
 
 - **[obsidian-vault](../skills/obsidian/obsidian-vault/SKILL.md)** (Model-invoked): Follow vault folder layout, naming, creation flow, and Markdown/math formatting
+- **[obsidian-markdown](../skills/obsidian/obsidian-markdown/SKILL.md)** (User-invoked): Follow Markdown, math, links, tags, and front matter formatting without vault folder layout
 
 ### qiita
 
