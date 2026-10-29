@@ -67,6 +67,7 @@ Mention the skill name in chat. In Cursor, use `/skill-name` or `@skill-name`.
 
 Conversation behavior.
 
+- **[ask-if-unsure](../skills/session/ask-if-unsure/SKILL.md)** (User-invoked): Pause and ask for confirmation before starting and mid-execution whenever requirements, contradictions, or trade-offs arise
 - **[ask-question-tool](../skills/session/ask-question-tool/SKILL.md)** (User-invoked): Put questions on Cursor’s AskQuestion tool
 - **[brief-english-final](../skills/session/brief-english-final/SKILL.md)** (User-invoked): Keep interim progress in one English line; keep the final answer in the configured language
 - **[grilling4cursor](../skills/session/grilling4cursor/SKILL.md)** (User-invoked): Ask design questions in rounds, then package ready questions into AskQuestion. Do not start until shared understanding is confirmed

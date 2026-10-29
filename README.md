@@ -67,6 +67,7 @@ npx skills list
 
 会話の振る舞い。
 
+- **[ask-if-unsure](./skills/session/ask-if-unsure/SKILL.md)**（User-invoked）: 着手前と作業途中の両方で、不明点・矛盾・分岐があれば手を止めて確認する
 - **[ask-question-tool](./skills/session/ask-question-tool/SKILL.md)**（User-invoked）: 質問を Cursor の AskQuestion ツールに載せる
 - **[brief-english-final](./skills/session/brief-english-final/SKILL.md)**（User-invoked）: 途中の進捗を英語1行にし、最終回答は設定言語のままにする
 - **[grilling4cursor](./skills/session/grilling4cursor/SKILL.md)**（User-invoked）: 設計をラウンドで聞き、前提が揃った質問を AskQuestion にまとめる。共有理解の確認まで着手しない
