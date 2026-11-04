@@ -2,6 +2,16 @@
 
 ## [Unreleased]
 
+## [1.12.0]
+
+### 追加
+
+- `writing` グループに Q&A 整理用 `qa-writing` を追加
+
+### 修正
+
+- `obsidian-vault` と `obsidian-markdown` の内部リンクを相対パスで書くよう追記
+
 ## [1.11.0]
 
 ### 追加

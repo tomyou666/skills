@@ -33,7 +33,7 @@ npx skills@latest add tomyou666/skills/skills/session
 # 実装、Git、レビュー、計画チケット 
 npx skills@latest add tomyou666/skills/skills/dev
 
-# 手順書、提案見積、締結見積・請書、解説、用語集、理論集、数式ノート、設計書
+# 手順書、提案見積、締結見積・請書、解説、用語集、理論集、数式ノート、設計書、Q&A（QA.md）
 npx skills@latest add tomyou666/skills/skills/writing
 
 # Vault のフォルダ・命名・書式
@@ -95,7 +95,7 @@ npx skills list
 
 ### writing
 
-手順書、提案見積、締結見積・請書、解説、用語集、理論集、数式ノート、設計書。
+手順書、提案見積、締結見積・請書、解説、用語集、理論集、数式ノート、設計書、Q&A（QA.md）。
 
 - **[design-doc-builder](./skills/writing/design-doc-builder/SKILL.md)**（User-invoked）: 要求から設計書を章ごとに分ける。保存先の指定が無いときはファイルを作らない
 - **[explanation-writing](./skills/writing/explanation-writing/SKILL.md)**（User-invoked）: 全体像から入るわかりやすい解説を書く・書き直す
@@ -105,6 +105,7 @@ npx skills list
 - **[math-cheat-sheet](./skills/writing/math-cheat-sheet/SKILL.md)**（User-invoked）: 数学チートシート形式のノートを作る・更新する（Obsidian ノートの書式）
 - **[procedure-writing](./skills/writing/procedure-writing/SKILL.md)**（User-invoked）: 上から実行できる手順書を書く
 - **[proposal-estimate-draft](./skills/writing/proposal-estimate-draft/SKILL.md)**（User-invoked）: 顧客向けの提案書と概算見積明細を Markdown で作る・改訂する
+- **[qa-writing](./skills/writing/qa-writing/SKILL.md)**（User-invoked）: 会話・メモ・議事から質問と回答を `QA.md` に整理する
 
 ### obsidian
 

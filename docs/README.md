@@ -33,7 +33,7 @@ npx skills@latest add tomyou666/skills/skills/session
 # Implementation, Git, review, plan tickets
 npx skills@latest add tomyou666/skills/skills/dev
 
-# Procedures, proposals/estimates, contract estimates/acks, explanations, glossaries, theory notes, math sheets, design docs
+# Procedures, proposals/estimates, contract estimates/acks, explanations, glossaries, theory notes, math sheets, design docs, structured Q&A (QA.md)
 npx skills@latest add tomyou666/skills/skills/writing
 
 # Vault folders, naming, and formatting
@@ -95,7 +95,7 @@ Implementation, Git, review, plan tickets.
 
 ### writing
 
-Procedures, proposals/estimates, contract estimates/acks, explanations, glossaries, theory notes, math sheets, design docs.
+Procedures, proposals/estimates, contract estimates/acks, explanations, glossaries, theory notes, math sheets, design docs, structured Q&A (QA.md).
 
 - **[design-doc-builder](../skills/writing/design-doc-builder/SKILL.md)** (User-invoked): Split requirements into a design doc by chapter. Do not create a file unless a save path is given
 - **[explanation-writing](../skills/writing/explanation-writing/SKILL.md)** (User-invoked): Write or rewrite clear explanations that start from the big picture
@@ -105,6 +105,7 @@ Procedures, proposals/estimates, contract estimates/acks, explanations, glossari
 - **[math-cheat-sheet](../skills/writing/math-cheat-sheet/SKILL.md)** (User-invoked): Create or update math cheat-sheet notes (Obsidian note format)
 - **[procedure-writing](../skills/writing/procedure-writing/SKILL.md)** (User-invoked): Write procedures that can be followed from top to bottom
 - **[proposal-estimate-draft](../skills/writing/proposal-estimate-draft/SKILL.md)** (User-invoked): Create or revise customer proposals and high-level estimate line items in Markdown
+- **[qa-writing](../skills/writing/qa-writing/SKILL.md)** (User-invoked): Turn chat, notes, or meeting Q&A into a structured `QA.md`
 
 ### obsidian
 
