@@ -1,79 +1,45 @@
 ---
 name: plan-skill-annotate
 description: >-
-  Scans project Agent Skills directories and annotates a plan-mode markdown with applicable
-  "Use the `skill-name` skill" notes on matching steps. Use only when explicitly
-  invoked with a Cursor plan MD (e.g. .cursor/plans/*.plan.md).
+  Annotate a Cursor plan markdown with matching project/user skill notes per step.
+  Explicit invoke only (e.g. plan under `.cursor/plans/`).
 compatibility: Requires Cursor plan-mode markdown
 disable-model-invocation: true
 ---
 
 # Plan Skill Annotate
 
-When explicitly invoked with a plan-mode markdown, check project skills and annotate the plan where they apply.
+User names this skill **and** a plan MD. Do not auto-run.
 
-## When to run
+## Steps
 
-- User attaches or names this skill **and** a plan MD (typically under `.cursor/plans/`).
-- Do **not** auto-run from ambient context.
-
-## Workflow
-
-1. Read the attached / named plan MD.
-2. List skills under these project dirs (skip a path if it does not exist):
-   - `.agents/skills/*/SKILL.md`
-   - `.claude/skills/*/SKILL.md`
-   - `.cursor/skills/*/SKILL.md`
-3. For each skill, read frontmatter `name` + `description` (and skim body only if the match is unclear).
-4. Match skills to plan steps by task type (language, layer, file kind, changelog, tests, i18n, Wire, etc.).
-5. Edit the plan MD: append a skill note on each matching step.
-6. Reply briefly: which skills were added, and which steps got them. If none match, say so and do not invent notes.
-
-## Annotation format
-
-Per matching implementation step, add (or merge into) a bullet:
+1. Read the plan MD.
+2. List `SKILL.md` under project `.agents/skills`, `.claude/skills`, `.cursor/skills` and user `~/.agents/skills`, `~/.claude/skills`, `~/.cursor/skills` (skip missing dirs).
+3. For each skill except `plan-skill-annotate`, use frontmatter `name` + `description`; skim body only if match is unclear.
+4. Where a step clearly fits a skill, prepend at the **top** of that step's bullets (skip if that skill is already mentioned):
 
 ```markdown
 - **Skill:** Use the `skill-name` skill.
 ```
 
-Optional short reason in parentheses when helpful:
+Optional `(short reason)`. English only; exact `name`. Several skills → extra **Skill:** line or `; ` on one line.
 
-```markdown
-- **Skill:** Use the `go-docstring-style` skill. (new/edited Go funcs, methods, struct fields)
-```
+5. Brief reply: skills added and steps, or no matches (do not invent notes).
 
-Rules for the note:
+## Limits
 
-- English only.
-- Use the skill's `name` field exactly (backticks).
-- Prefer one line per step; multiple skills on one step → same bullet, joined with "; " or a second **Skill:** bullet.
-- Place the note at the **top of that step's bullet list** (before file/task bullets).
-- Do not duplicate if the step already says to use that skill (any wording).
+- No `~/.cursor/skills-cursor/`.
+- Do not rewrite plan content, dump all skills, or change todos / plan frontmatter unless asked.
 
-## Matching rules
-
-- Annotate only when the step clearly triggers the skill's description.
-- Skip this skill (`plan-skill-annotate`) itself.
-- Skip skills that do not apply to any step.
-- Do not recommend personal (`~/.cursor/skills/`, `~/.claude/skills/`) or built-in (`~/.cursor/skills-cursor/`) skills unless the user asks.
-- Prefer existing project skill names over paraphrased advice.
-
-## Examples (typical matches in this repo)
+## Examples (this repo)
 
 | Plan work | Skill |
 |-----------|--------|
 | Go funcs / methods / struct fields | `go-docstring-style` |
-| Wire / providers / wire_gen / composition root | `go-wire` |
-| TSX UI copy / labels / aria | `tsx-i18n-messages` |
-| Adding or editing tests | `test-overview-style` |
-| Notable feature/fix after impl | `update-changelog` |
-| DESIGN.md → shadcn CSS tokens | `design-to-shadcn-css` |
+| Wire / providers / wire_gen | `go-wire` |
+| TSX copy / labels / aria | `tsx-i18n-messages` |
+| Tests | `test-overview-style` |
+| Feature/fix after impl | `update-changelog` |
+| DESIGN.md → shadcn CSS | `design-to-shadcn-css` |
 
-Other project skill entries: match from their `description` the same way.
-
-## Do not
-
-- Rewrite the plan's technical content unrelated to skill notes.
-- Add a global "use all skills" dump.
-- Mark todos completed or change plan frontmatter status unless asked.
+Elsewhere: same match from each skill's `description`.
