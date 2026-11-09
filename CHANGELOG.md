@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [1.15.0]
+
+### 追加
+
+- 図を draw.io XML として写す `reproduce-diagram` を `diagram` グループに追加
+
 ## [1.14.0]
 
 ### 追加

@@ -4,7 +4,7 @@
 
 [![skills.sh](https://skills.sh/b/tomyou666/skills)](https://skills.sh/tomyou666/skills)
 
-Agent Skills for commits, reviews, writing, Obsidian, Qiita, OpenCode, and Vikunja.
+Agent Skills for commits, reviews, writing, diagrams, Obsidian, Qiita, OpenCode, and Vikunja.
 
 ## Install
 
@@ -47,6 +47,9 @@ npx skills@latest add tomyou666/skills/skills/opencode
 
 # Vikunja (user-vikunja MCP)
 npx skills@latest add tomyou666/skills/skills/vikunja
+
+# Diagrams (draw.io)
+npx skills@latest add tomyou666/skills/skills/diagram
 ```
 
 Verify what you installed:
@@ -128,6 +131,12 @@ Qiita articles.
 OpenCode (oh-my-opencode-slim / open-codebase-index).
 
 - **[codebase-explore](../skills/opencode/codebase-explore/SKILL.md)** (User-invoked): Prefer `codebase_context` / `codebase_peek` when exploring; use `lsp_*` or `implementation_lookup` / `call_graph` for symbol investigation
+
+### diagram
+
+Diagrams (draw.io).
+
+- **[reproduce-diagram](../skills/diagram/reproduce-diagram/SKILL.md)** (User-invoked): Recreate an architecture or flow diagram as draw.io XML and open it with the draw.io MCP, including icon placeholders and adding the MCP when its tools are absent
 
 ### vikunja
 

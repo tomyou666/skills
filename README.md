@@ -4,7 +4,7 @@
 
 [![skills.sh](https://skills.sh/b/tomyou666/skills)](https://skills.sh/tomyou666/skills)
 
-コミット、レビュー、文書、Obsidian、Qiita、OpenCode、Vikunja の作業を、Agent Skills として揃える。
+コミット、レビュー、文書、図、Obsidian、Qiita、OpenCode、Vikunja の作業を、Agent Skills として揃える。
 
 ## インストール
 
@@ -47,6 +47,9 @@ npx skills@latest add tomyou666/skills/skills/opencode
 
 # Vikunja（user-vikunja MCP）
 npx skills@latest add tomyou666/skills/skills/vikunja
+
+# 図（draw.io）
+npx skills@latest add tomyou666/skills/skills/diagram
 ```
 
 入れたか確認する:
@@ -128,6 +131,12 @@ Qiita 記事。
 OpenCode（oh-my-opencode-slim / open-codebase-index）。
 
 - **[codebase-explore](./skills/opencode/codebase-explore/SKILL.md)**（User-invoked）: 探索では `codebase_context` / `codebase_peek` を優先し、シンボル調査には `lsp_*` または `implementation_lookup` / `call_graph` を使う
+
+### diagram
+
+図（draw.io）。
+
+- **[reproduce-diagram](./skills/diagram/reproduce-diagram/SKILL.md)**（User-invoked）: 構成図やフロー図を draw.io XML として写し、draw.io MCP で開く。アイコン指定時のプレースホルダと、MCP が無いときの追加も含む
 
 ### vikunja
 
