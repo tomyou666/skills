@@ -74,6 +74,7 @@ Conversation behavior.
 - **[no-local](../skills/session/no-local/SKILL.md)** (User-invoked): Do not use local files or commands until released
 - **[no-write](../skills/session/no-write/SKILL.md)** (User-invoked): Do not create, edit, or delete files until released
 - **[say-once](../skills/session/say-once/SKILL.md)** (User-invoked): Use only words a typical adult can follow in one pass; write only what is not yet known
+- **[skill-fb](../skills/session/skill-fb/SKILL.md)** (User-invoked): When named at the end of a session, write feedback and improvements from that whole session
 
 ### dev
 

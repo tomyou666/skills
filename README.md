@@ -74,6 +74,7 @@ npx skills list
 - **[no-local](./skills/session/no-local/SKILL.md)**（User-invoked）: ローカルのファイルやコマンドを使わず、解除までその状態を保つ
 - **[no-write](./skills/session/no-write/SKILL.md)**（User-invoked）: ファイルの作成・編集・削除をせず、解除までその状態を保つ
 - **[say-once](./skills/session/say-once/SKILL.md)**（User-invoked）: 普通の大人が一回で聞ける言葉だけを使い、まだ知らないことだけを書く
+- **[skill-fb](./skills/session/skill-fb/SKILL.md)**（User-invoked）: セッションの最後に指定すると、それまでのセッションからフィードバックと改善案を書く
 
 ### dev
 
