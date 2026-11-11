@@ -136,7 +136,7 @@ OpenCode (oh-my-opencode-slim / open-codebase-index).
 
 Diagrams (draw.io).
 
-- **[reproduce-diagram](../skills/diagram/reproduce-diagram/SKILL.md)** (User-invoked): Recreate an architecture or flow diagram as draw.io XML and open it with the draw.io MCP, including icon placeholders and adding the MCP when its tools are absent
+- **[drawio-reproduce](../skills/diagram/drawio-reproduce/SKILL.md)** (User-invoked): Recreate an architecture or flow diagram as draw.io XML and open it with the draw.io MCP, including icon placeholders and adding the MCP when its tools are absent
 
 ### vikunja
 

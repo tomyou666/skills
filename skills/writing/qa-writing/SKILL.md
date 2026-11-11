@@ -17,13 +17,13 @@ Write or update `QA.md` from questions and answers in the chat or in given notes
     └── QA.md
 ```
 
-Put `QA.md` in the target folder, or at the root when the workspace has a single context. Create it if missing; update or append to it if it already exists. Do not ask where to save it.
+Put `QA.md` in the target folder, or at the root when the workspace has a single context. Create it if missing; append new entries to the end if it already exists. Do not ask where to save it.
 
 ## Ordering and grouping
 
-- Order entries from overview and prerequisites to details.
+- Always append new Q&A entries at the end of the file. Do not insert them by topic order, overview-first order, or anywhere else in the middle.
 - Single topic: use `## Q. <Question>`.
-- Multiple topics or appending a new topic: group under `## <Category>` and use `### Q. <Question>`.
+- Multiple topics or appending a new topic: group under `## <Category>` and use `### Q. <Question>`. When the category already exists, still append the new entry at the file end (do not insert under the existing heading mid-file).
 - Make each question self-contained so it makes sense without the prior conversation.
 - Record only the final answer. Drop false starts and mid-chat corrections.
 

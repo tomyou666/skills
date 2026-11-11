@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+## [1.16.0]
+
+### 修正
+
+- `qa-writing` で新規 Q&A を常にファイル末尾へ追記するよう変更
+- `reproduce-diagram` を `drawio-reproduce` に改名
+
 ## [1.15.0]
 
 ### 追加

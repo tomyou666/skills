@@ -136,7 +136,7 @@ OpenCode（oh-my-opencode-slim / open-codebase-index）。
 
 図（draw.io）。
 
-- **[reproduce-diagram](./skills/diagram/reproduce-diagram/SKILL.md)**（User-invoked）: 構成図やフロー図を draw.io XML として写し、draw.io MCP で開く。アイコン指定時のプレースホルダと、MCP が無いときの追加も含む
+- **[drawio-reproduce](./skills/diagram/drawio-reproduce/SKILL.md)**（User-invoked）: 構成図やフロー図を draw.io XML として写し、draw.io MCP で開く。アイコン指定時のプレースホルダと、MCP が無いときの追加も含む
 
 ### vikunja
 
