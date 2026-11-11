@@ -2,6 +2,14 @@
 
 ## [Unreleased]
 
+## [1.17.0]
+
+### 修正
+
+- `obsidian-vault` から Markdown 書式を外し、`obsidian-markdown` を参照するよう変更
+  - `obsidian-markdown` が無いときだけ同フォルダの `markdown.md` にフォールバック
+  - `README.md` と `docs/README.md` の説明を更新
+
 ## [1.16.0]
 
 ### 修正
