@@ -47,3 +47,9 @@ Skip `Done-condition gap` when no followed skill states a done condition. When a
 Each item is the label, the reason, and one episode from this session. Do not name a heading inside a skill file. Do not draft a replacement sentence.
 
 Omit a label with no item. When `Improvements` has no item, write `No improvements`, then write `Feedback` if it has items.
+
+## Language
+
+An English reply uses the English names in this file.
+
+A Japanese reply reads `headings.ja.md` beside this file before writing. Write the Japanese cell for each English name there, as the bare word. That covers the two headings, `No improvements`, and the five labels. The section rules still apply after that replacement. Add no Markdown heading mark, and invent no other Japanese for those names.
